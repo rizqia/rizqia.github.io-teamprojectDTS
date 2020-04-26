@@ -1,0 +1,59 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .contents {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .main h1 {
+    font-size: 32px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+  }
+
+.main h3 {
+    font-size: 15px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .contents {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-copy {
+    text-align: center;
+  }
+
+  .contact-submit {
+    width: 100%;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: block;
+  }
+
+  .main h1 {
+    font-size: 32px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+  }
+
+.main h3 {
+    font-size: 15px;
+  }
+}
